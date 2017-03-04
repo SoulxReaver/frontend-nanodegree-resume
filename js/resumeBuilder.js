@@ -9,7 +9,7 @@ var bio = {
         location: "Burien, Washington"
     },
     welcomeMessage: "My Online Resume",
-    skills: ["skill1", "skill2", "skill3", "skill4"],
+    skills: ["skill1", "skill2", "skill3", "skill4", "skill5"],
     biopic: "images/fry.jpg",
     display: function () {
         $("#header").prepend(HTMLheaderRole.replace('%data%', bio.role));
